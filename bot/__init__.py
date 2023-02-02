@@ -119,7 +119,7 @@ AS_MEDIA_USERS = set()
 EXTENSION_FILTER = set(['.aria2'])
 
 try:
-    BOT_TOKEN = getConfig('BOT_TOKEN')
+    BOT_TOKEN = getConfig('2129631151:AAEd7zcC2uUAmiPGBXjJS_lBxMjbamZ52lA')
     parent_id = getConfig('GDRIVE_FOLDER_ID')
     DOWNLOAD_DIR = getConfig('DOWNLOAD_DIR')
     if not DOWNLOAD_DIR.endswith("/"):
